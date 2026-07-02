@@ -1,0 +1,18 @@
+# Environment / secrets
+.env
+backend/.env
+
+# Python
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Uploaded user files (contain real personal data)
+backend/uploads/resumes/*
+!backend/uploads/resumes/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
